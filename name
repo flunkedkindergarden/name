@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <!-- Metadata -->
+  <name>Free Feats by Story</name>
+  <type>Feat</type>
+  <source>DM houserules</source>
+  <id>ID_HOUSERULES_FREE_FEATS_STORY</id>
+
+  <!-- Description -->
+  <description>
+    Some Gamemasters may grant free feats for your characters as part of the story. 
+    Select this feat if your GM uses this rule. You regain one spent feat and gain 
+    access to four optional bonus feats (adjust based on your GM's grants).
+  </description>
+
+  <!-- Rules -->
+  <rules>
+    <rule>
+      <action>select</action>
+      <target type="Feat">You get your Feat back</target>
+    </rule>
+    <rule>
+      <action>select</action>
+      <target type="Feat">Free Feat by Story 1</target>
+    </rule>
+    <rule>
+      <action>select</action>
+      <target type="Feat">Free Feat by Story 2</target>
+    </rule>
+    <rule>
+      <action>select</action>
+      <target type="Feat">Free Feat by Story 3</target>
+    </rule>
+    <rule>
+      <action>select</action>
+      <target type="Feat">Free Feat by Story 4</target>
+    </rule>
+  </rules>
+
+  <!-- Additional Metadata (Optional) -->
+  <tags>
+    <tag>houserule</tag>
+    <tag>story</tag>
+    <tag>feat</tag>
+  </tags>
+</index>
